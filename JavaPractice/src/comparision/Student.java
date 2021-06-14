@@ -1,4 +1,4 @@
-package Practice;
+package comparision;
 
 public class Student implements Comparable<Student> {
     int rollNo;
