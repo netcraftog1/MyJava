@@ -1,4 +1,5 @@
-package Java.JavaPractice.Comparision;
+package Practice;
+
 
 public class Student implements Comparable<Student> {
     int rollNo;
@@ -22,6 +23,10 @@ public class Student implements Comparable<Student> {
     public int compareTo(Student o) {
        return this.name.compareTo(o.name);
     }
+
+public static void main(String[] args) {
+    System.out.println("Hello World");
+}
 
 }
 
