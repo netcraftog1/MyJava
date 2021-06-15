@@ -33,8 +33,6 @@ public class UnitTest {
         System.out.println("Arr sorted by roll number: ");
         for ( Student s : arr)
             System.out.println(s.toString());
-
-
         
     }
 
@@ -48,5 +46,4 @@ public class UnitTest {
         arr.add(s3);
         arr.add(s4);
     }
-    
 }
